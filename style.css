@@ -1,0 +1,39 @@
+    display: block;
+padding: 11px 31px;
+background-color: var(--main-bg-color);
+width: 600px;
+
+/* width: 600px; */
+
+width: 45%;
+margin-top: 20px;
+
+}
+28 changes: 28 additions & 0 deletions 28 src/index.css Original file line number Diff line number Diff line change @@ -11,
+4+11,
+32 @@ code {
+    :root {
+        --main-color: #f47c18;
+        --main-bg-color: #f8ebe8;
+    }
+    
+    @media only screen and (max-width: 704px) {
+        .logo-buttons {
+            display: none;
+        }
+        nav {
+            justify-content: center !important;
+        }
+        #searchBar {
+            width: 68% !important;
+        }
+    }
+    
+    @media only screen and (max-width: 570px) {
+        .nav-logo {
+            flex-direction: column !important;
+        }
+        #searchBar {
+            width: 88% !important;
+        }
+    }
